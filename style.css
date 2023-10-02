@@ -264,7 +264,7 @@
 }
 
 #main {
-    /* border: 2px solid rgb(38, 0, 128); */
+    border: 5px solid green;
     width: 100%;
     height: 6233px;
     margin: auto;
@@ -274,20 +274,24 @@
 
 #swiper,
 #swiper_2 {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin-top: 5px;
     width: 100%;
     height: 579.641px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+
 }
 
 #swiper>img,
 #swiper_2>img {
     height: 560px;
-    width: 520px;
-    /* margin-left: 3px; */
+    width: 32%;
+    margin-left: 0.5%;
+    object-fit:fill;
+    background-size: 445.71px 445.71px;
+
 }
 
 #eightimg {
@@ -298,6 +302,7 @@
     justify-content: space-between;
     margin: auto;
     cursor: pointer;
+   
 
 }
 
@@ -385,7 +390,7 @@
 #timg_2,
 #categories,
 #fourimg_row {
-    /* border: 2px solid rgb(0, 102, 255); */
+    border: 2px solid rgb(0, 102, 255);
     width: 100%;
     display: flex;
     justify-content: space-between;
